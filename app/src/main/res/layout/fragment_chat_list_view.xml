@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="av.xxx.qunyingzhuantest.fragment.ChatListViewFragment">
+    tools:context="av.xxx.qunyingzhuantest.fragmentForCh4.ChatListViewFragment">
 
    <ListView
        android:id="@+id/lv"

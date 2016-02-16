@@ -16,24 +16,42 @@
             android:text="第四章ListView" />
 
         <Button
-            android:id="@+id/btn_1"
+            android:id="@+id/btn_listview_1"
             style="@style/ButtonStyle"
             android:text="自动显示隐藏布局的ListView" />
 
         <Button
-            android:id="@+id/btn_2"
+            android:id="@+id/btn_listview_2"
             style="@style/ButtonStyle"
             android:text="聊天的ListView" />
 
         <Button
-            android:id="@+id/btn_3"
+            android:id="@+id/btn_listview_3"
             style="@style/ButtonStyle"
             android:text="具有弹性的ListView" />
 
         <Button
-            android:id="@+id/btn_4"
+            android:id="@+id/btn_listview_4"
             style="@style/ButtonStyle"
             android:text="动态改变布局的ListView" />
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="第五章Scroll" />
+
+        <Button
+            android:id="@+id/btn_scroll_1"
+            style="@style/ButtonStyle"
+            android:text="ViewDragHelper的使用" />
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="第六章绘图" />
+
+        <Button
+            android:id="@+id/btn_draw_1"
+            style="@style/ButtonStyle"
+            android:text="仪表盘" />
     </LinearLayout>
 
 </ScrollView>

@@ -2,11 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="av.xxx.qunyingzhuantest.fragmentForCh4.OverDistanceFragment">
+    tools:context="av.xxx.qunyingzhuantest.fragmentForCh6.ClockViewFragment">
 
-    <OverDistanceListView
-        android:id="@+id/lv"
+    <!-- TODO: Update blank fragment layout -->
+    <ClockView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></OverDistanceListView>
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>

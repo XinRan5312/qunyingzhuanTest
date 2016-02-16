@@ -5,10 +5,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import av.xxx.qunyingzhuantest.fragment.ChangeFocusFragment;
-import av.xxx.qunyingzhuantest.fragment.ChatListViewFragment;
-import av.xxx.qunyingzhuantest.fragment.HideToolbarFragment;
-import av.xxx.qunyingzhuantest.fragment.OverDistanceFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh4.ChangeFocusFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh4.ChatListViewFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh4.HideToolbarFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh4.OverDistanceFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh5.ViewDragFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh6.ClockViewFragment;
 
 
 public class ContentActivity extends AppCompatActivity {
@@ -42,6 +44,14 @@ public class ContentActivity extends AppCompatActivity {
             case 4:
                 ChangeFocusFragment fragment4 = new ChangeFocusFragment();
                 getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment4).commit();
+                break;
+            case 5:
+                ViewDragFragment fragment5 = new ViewDragFragment();
+                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment5).commit();
+                break;
+            case 6:
+                ClockViewFragment fragment6 = new ClockViewFragment();
+                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment6).commit();
                 break;
         }
 

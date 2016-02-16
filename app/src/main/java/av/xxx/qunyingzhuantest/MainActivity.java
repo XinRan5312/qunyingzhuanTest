@@ -18,17 +18,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.btn_1:
+            case R.id.btn_listview_1:
                 ContentActivity.comeToMe(MainActivity.this,1);
                 break;
-            case R.id.btn_2:
+            case R.id.btn_listview_2:
                 ContentActivity.comeToMe(MainActivity.this,2);
                 break;
-            case R.id.btn_3:
+            case R.id.btn_listview_3:
                 ContentActivity.comeToMe(MainActivity.this,3);
                 break;
-            case R.id.btn_4:
+            case R.id.btn_listview_4:
                 ContentActivity.comeToMe(MainActivity.this,4);
+                break;
+            case R.id.btn_scroll_1:
+                ContentActivity.comeToMe(MainActivity.this,5);
+                break;
+            case R.id.btn_draw_1:
+                ContentActivity.comeToMe(MainActivity.this,6);
                 break;
         }
     }

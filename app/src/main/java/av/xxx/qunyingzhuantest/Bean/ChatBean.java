@@ -1,4 +1,4 @@
-package av.xxx.qunyingzhuantest.Bean;
+package av.xxx.qunyingzhuantest.bean;
 
 /**
  * Created by 1 on 2016/1/20.

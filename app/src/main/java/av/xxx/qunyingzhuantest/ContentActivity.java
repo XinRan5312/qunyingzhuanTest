@@ -11,6 +11,9 @@ import av.xxx.qunyingzhuantest.fragmentForCh4.HideToolbarFragment;
 import av.xxx.qunyingzhuantest.fragmentForCh4.OverDistanceFragment;
 import av.xxx.qunyingzhuantest.fragmentForCh5.ViewDragFragment;
 import av.xxx.qunyingzhuantest.fragmentForCh6.ClockViewFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh6.ColorMatrixFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh6.ScratchCardFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh6.SurfaceViewFragment;
 
 
 public class ContentActivity extends AppCompatActivity {
@@ -52,6 +55,18 @@ public class ContentActivity extends AppCompatActivity {
             case 6:
                 ClockViewFragment fragment6 = new ClockViewFragment();
                 getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment6).commit();
+                break;
+            case 7:
+                ColorMatrixFragment fragment7 = new ColorMatrixFragment();
+                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment7).commit();
+                break;
+            case 8:
+                ScratchCardFragment fragment8 = new ScratchCardFragment();
+                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment8).commit();
+                break;
+            case 9:
+                SurfaceViewFragment fragment9 = new SurfaceViewFragment();
+                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment9).commit();
                 break;
         }
 

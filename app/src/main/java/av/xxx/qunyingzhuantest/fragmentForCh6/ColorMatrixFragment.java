@@ -1,6 +1,6 @@
 package av.xxx.qunyingzhuantest.fragmentForCh6;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -94,7 +94,7 @@ public class ColorMatrixFragment extends Fragment implements SeekBar.OnSeekBarCh
 
         paint.setColorFilter(new ColorMatrixColorFilter(matrix));
         canvas.drawBitmap(bm, 0, 0, paint);
-        //系统不允许修改原图  因此这里通过原图创建了一个新的bitmap，以副本的形式来修改图片
+        //系统锟斤拷锟斤拷锟斤拷锟睫革拷原图  锟斤拷锟斤拷锟斤拷锟酵拷锟皆硷拷锟斤拷锟斤拷锟揭伙拷锟斤拷碌锟絙itmap锟斤拷锟皆革拷锟斤拷锟斤拷锟斤拷式锟斤拷锟睫革拷图片
         return bmp;
     }
 

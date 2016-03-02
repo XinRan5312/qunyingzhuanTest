@@ -45,6 +45,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_draw_4:
                 ContentActivity.comeToMe(MainActivity.this,9);
                 break;
+            case R.id.btn_anim_1:
+                ContentActivity.comeToMe(MainActivity.this,10);
+                break;
+            case R.id.btn_anim_2:
+                ContentActivity.comeToMe(MainActivity.this,11);
+                break;
+            case R.id.btn_anim_3:
+                ContentActivity.comeToMe(MainActivity.this,12);
+                break;
         }
     }
 }

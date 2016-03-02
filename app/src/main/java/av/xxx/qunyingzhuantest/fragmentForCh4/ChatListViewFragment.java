@@ -1,7 +1,8 @@
 package av.xxx.qunyingzhuantest.fragmentForCh4;
 
-import android.app.Fragment;
+
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,8 +13,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import av.xxx.qunyingzhuantest.bean.ChatBean;
 import av.xxx.qunyingzhuantest.R;
+import av.xxx.qunyingzhuantest.bean.ChatBean;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 

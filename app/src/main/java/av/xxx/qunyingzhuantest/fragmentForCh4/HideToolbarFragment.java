@@ -1,8 +1,8 @@
 package av.xxx.qunyingzhuantest.fragmentForCh4;
 
 import android.animation.ObjectAnimator;
-import android.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;

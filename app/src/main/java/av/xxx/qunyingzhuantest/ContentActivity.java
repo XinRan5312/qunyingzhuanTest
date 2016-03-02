@@ -14,6 +14,9 @@ import av.xxx.qunyingzhuantest.fragmentForCh6.ClockViewFragment;
 import av.xxx.qunyingzhuantest.fragmentForCh6.ColorMatrixFragment;
 import av.xxx.qunyingzhuantest.fragmentForCh6.ScratchCardFragment;
 import av.xxx.qunyingzhuantest.fragmentForCh6.SurfaceViewFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh7.AnimDropFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh7.AnimFragment;
+import av.xxx.qunyingzhuantest.fragmentForCh7.AnimMenuFragment;
 
 
 public class ContentActivity extends AppCompatActivity {
@@ -34,39 +37,51 @@ public class ContentActivity extends AppCompatActivity {
         switch (getIntent().getIntExtra(INTENT_ID, 0)) {
             case 1:
                 HideToolbarFragment fragment1 = new HideToolbarFragment();
-                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment1).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment1).commit();
                 break;
             case 2:
                 ChatListViewFragment fragment2 = new ChatListViewFragment();
-                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment2).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment2).commit();
                 break;
             case 3:
                 OverDistanceFragment fragment3 = new OverDistanceFragment();
-                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment3).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment3).commit();
                 break;
             case 4:
                 ChangeFocusFragment fragment4 = new ChangeFocusFragment();
-                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment4).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment4).commit();
                 break;
             case 5:
                 ViewDragFragment fragment5 = new ViewDragFragment();
-                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment5).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment5).commit();
                 break;
             case 6:
                 ClockViewFragment fragment6 = new ClockViewFragment();
-                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment6).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment6).commit();
                 break;
             case 7:
                 ColorMatrixFragment fragment7 = new ColorMatrixFragment();
-                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment7).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment7).commit();
                 break;
             case 8:
                 ScratchCardFragment fragment8 = new ScratchCardFragment();
-                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment8).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment8).commit();
                 break;
             case 9:
                 SurfaceViewFragment fragment9 = new SurfaceViewFragment();
-                getFragmentManager().beginTransaction().replace(R.id.rl_main, fragment9).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment9).commit();
+                break;
+            case 10:
+                AnimFragment fragment10 = new AnimFragment();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment10).commit();
+                break;
+            case 11:
+                AnimMenuFragment fragment11 = new AnimMenuFragment();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment11).commit();
+                break;
+            case 12:
+                AnimDropFragment fragment12 = new AnimDropFragment();
+                getSupportFragmentManager().beginTransaction().replace(R.id.rl_main, fragment12).commit();
                 break;
         }
 
